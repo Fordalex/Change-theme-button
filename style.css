@@ -1,0 +1,14 @@
+.light-theme {
+    --color-primary: #e0e0e0;
+    --font-color: #000000;
+}
+
+.dark-theme {
+    --color-primary: #4b4b4b;
+    --font-color: #ffffff;
+}
+
+main {
+    background-color: var(--color-primary);
+    color: var(--font-color);
+}
